@@ -6,7 +6,7 @@
 
 **calculate**
 ----
-  Returns json data about a single user.
+  Takes a list of flights as input and returns the final path of the user
 
 * **URL**
 
