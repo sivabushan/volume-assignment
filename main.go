@@ -1,6 +1,7 @@
 package main
 
 import (
+	"log"
 	"net/http"
 	"volume-assignment/pkg/server"
 )
@@ -14,5 +15,5 @@ func main() {
 	}
 	srv := server.New()
 	mux.HandleFunc("/calculate", srv.CalculateResponse)
-	s.ListenAndServe()
+	log.Fatal(s.ListenAndServe())
 }
