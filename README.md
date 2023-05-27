@@ -17,7 +17,7 @@
   `POST`
 * **Data Params**
 
- list of flights in text, for example [["SFO", "EWR"]]
+ list of flights in text, for example [["ATL", "EWR"], ["SFO", "ATL"]]
 
 * **Success Response:**
 
